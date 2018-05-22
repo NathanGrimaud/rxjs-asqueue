@@ -1,0 +1,20 @@
+{
+  "name": "rx-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/ramda": "^0.25.29",
+    "ava": "^0.25.0",
+    "nyc": "^11.8.0",
+    "ramda": "^0.25.0",
+    "rxjs": "^6.1.0",
+    "rxjs-compat": "^6.1.0",
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "test": "tsc && ava",
+    "coverage": "tsc && nyc ava --verbose",
+    "build": "tsc"
+  }
+}
