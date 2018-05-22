@@ -17,6 +17,10 @@
     "prepublish": "yarn test",
     "test": "yarn build && ava",
     "coverage": "yarn build && nyc ava --verbose",
+    "coveralls": "yarn build && nyc --reporter=lcov --reporter=text-lcov ava | coveralls",
     "build": "tsc"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.1"
   }
 }

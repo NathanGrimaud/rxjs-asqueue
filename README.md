@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/NathanGrimaud/rxjs-asqueue.svg?branch=master)](https://travis-ci.org/NathanGrimaud/rxjs-asqueue) [![Coverage Status](https://coveralls.io/repos/github/NathanGrimaud/rxjs-asqueue/badge.svg?branch=master)](https://coveralls.io/github/NathanGrimaud/rxjs-asqueue?branch=master)
+
 # Rx asQueue
 
 ```typescript
